@@ -8,5 +8,5 @@ theme:
     logo: material/terminal
 nav:
   - Home: index.md
-  - The Math: math_core.md
+  - The Math: math.md
   - Installation: install.md
