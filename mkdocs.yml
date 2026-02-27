@@ -1,0 +1,12 @@
+site_name: Impulse-X Terminal
+theme:
+  name: material
+  palette:
+    scheme: slate  # Dark mode by default
+    primary: teal
+  icon:
+    logo: material/terminal
+nav:
+  - Home: index.md
+  - The Math: math_core.md
+  - Installation: install.md
