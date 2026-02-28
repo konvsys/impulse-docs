@@ -125,4 +125,4 @@ Through this mathematical synthesis, the engine categorizes every market movemen
 5. **High Chaos:** Shannon Entropy has maximized. Structural signals are breaking down. Cash is the safest position.
 
 ---
-**Ready to decode the market** > [Secure your alpha seat on Gumroad](https://konvolut.gumroad.com/l/wjtou)
+**Ready to decode the market** > [Secure your Alpha Seat on Gumroad](https://konvolut.gumroad.com/l/wjtou)
