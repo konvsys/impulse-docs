@@ -123,3 +123,6 @@ Through this mathematical synthesis, the engine categorizes every market movemen
 3. **Kinematic Dip (Mean-Reverting):** Negative causal phase, dropping velocity. The math suggests a pullback within a broader structure.
 4. **Kinetic Rip (Mean-Reverting):** Positive causal phase, spike in acceleration. An oversold bounce or local short-squeeze.
 5. **High Chaos:** Shannon Entropy has maximized. Structural signals are breaking down. Cash is the safest position.
+
+---
+[Treat Your Inner Quant on Gumroad](https://konvolut.gumroad.com/l/wjtou)
