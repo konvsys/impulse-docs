@@ -15,9 +15,9 @@ Impulse-X discards time-averaging. Instead, we treat price as a physical object 
 To calculate true momentum without lag, we apply a **Savitzky-Golay filter** to the logarithmic price series. Instead of averaging data, this filter fits a low-degree polynomial to a rolling window of price action. This allows us to extract smooth, instantaneous derivatives:
 
 * **Velocity ($v$):** The first derivative of price. It measures the true speed and direction of capital flow.
-  $$v = \frac{dp}{dt}$$
+  $v = \frac{dp}{dt}$
 * **Acceleration ($a$):** The second derivative. It measures momentum ignition or exhaustion.
-  $$a = \frac{d^2p}{dt^2}$$
+  $a = \frac{d^2p}{dt^2}$
 
 **The Practical Logic:** Imagine tracking a car. Velocity tells you it is moving forward at 60 mph (a bullish trend). However, if the car is approaching a red light, the driver hits the brakes. The car is still moving forward (velocity is positive), but it is slowing down (**acceleration becomes negative**). 
 
@@ -28,7 +28,7 @@ Impulse-X detects this negative acceleration in price, signaling trend exhaustio
 Markets are cyclical, moving between expansion and contraction. To understand where the market is within a cycle *right now*, Impulse-X uses a **Hilbert Transform** to calculate the instantaneous phase angle.
 
 The Transform creates an analytic signal from the price data:
-$$X_a(t) = X(t) + j \cdot \mathcal{H}\{X(t)\}$$
+$X_a(t) = X(t) + j \cdot \mathcal{H}\{X(t)\}$
 
 **The Practical Logic:**
 Think of a swinging pendulum. The Hilbert Transform tells us exactly where the pendulum is in its arc (e.g., passing the center at maximum speed, or hanging suspended at the apex right before reversing). 
@@ -75,7 +75,7 @@ To decode the market's true state, Impulse-X utilizes a **Hidden Markov Model (H
 ### 1. The Initial State Guess ($\pi$)
 
 When you first boot Impulse-X, it cannot instantly know what the market is doing without historical context. It begins with an initial assumption vector. We hardcode the engine to start with a 100% belief that the market is in a **Neutral** state:
-$$\pi = [1.0, 0.0, 0.0, 0.0, 0.0]$$
+$\pi = [1.0, 0.0, 0.0, 0.0, 0.0]$
 From this baseline, the engine begins absorbing real-time data to update its belief.
 
 ### 2. The Probability Transition Matrix ($A$)
@@ -125,4 +125,4 @@ Through this mathematical synthesis, the engine categorizes every market movemen
 5. **High Chaos:** Shannon Entropy has maximized. Structural signals are breaking down. Cash is the safest position.
 
 ---
-**Ready to decode the market** > [Secure your Alpha Seat on Gumroad](https://konvolut.gumroad.com/l/wjtou)
+**Ready to decode the market?** > [Secure your Alpha Seat on Gumroad](https://konvolut.gumroad.com/l/wjtou)
