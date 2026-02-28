@@ -62,7 +62,7 @@ Conversely, when institutional capital steps in and initiates a true trend, the 
 
 ---
 
-##### 3. Hidden Markov Models (The Regime Decoder)
+## 3. Hidden Markov Models (The Regime Decoder)
 
 Standard indicators assume the market operates by a single set of continuous rules. In reality, financial markets are dynamic systems that abruptly shift between distinct structural "states" (e.g., low-volatility trending vs. high-volatility distribution). 
 
