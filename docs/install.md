@@ -20,4 +20,4 @@ Upon first successful activation, your key is bound to your local environment. T
 * Active Internet Connection (for API verification)
 * 4GB RAM (recommended minimum)
 
-**Unlock Impulse-x**: [Subscribe now with 30 days free trial](https://konvolut.gumroad.com/l/wjtou)
+**Unlock Impulse-x**: [Unlock your Alpha Seat on Gumroad](https://konvolut.gumroad.com/l/wjtou)
