@@ -4,7 +4,7 @@ theme:
   palette:
     scheme: slate  # Dark mode by default
     primary: teal
-  icon:
+  icon: 
     logo: material/terminal
 nav:
   - Home: index.md
