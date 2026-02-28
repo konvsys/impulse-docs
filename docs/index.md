@@ -26,7 +26,7 @@ We don't just look at price; we look at its physics. The engine calculates the t
 
 **3. Signal Entropy & Noise Filtration.**
 Not all price action is worth trading. The engine calculates Shannon Entropy to measure signal noise. When chaos is too high, the system tells you to sit on your hands.
-
+![Impulse-X Terminal Preview](assets/terminal_3.png)
 ---
 
 ## Terminal Environment Preview
