@@ -2,10 +2,16 @@ site_name: Impulse-X Terminal
 theme:
   name: material
   palette:
-    scheme: slate  # Dark mode by default
+    scheme: slate
     primary: teal
-  icon: 
-    logo: material/terminal
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 nav:
   - Home: index.md
   - The Math: math.md

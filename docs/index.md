@@ -1,6 +1,6 @@
 # Impulse-X: Scientific Precision for Disciplined Traders
 
-![loading-ag-160](![Impulse-X%20Terminal%20Preview](assets/terminal_1.png))
+![Impulse-X Terminal Preview](assets/terminal_1.png)
 
 **Impulse-X** is a high-performance terminal that brings institutional-grade kinematic analysis to the independent trader. 
 
